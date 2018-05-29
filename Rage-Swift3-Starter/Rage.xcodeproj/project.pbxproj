@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100222B220BDE92D00F45BC3 /* RageProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100222AB20BDE92C00F45BC3 /* RageProducts.swift */; };
+		100222B320BDE92D00F45BC3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100222AC20BDE92C00F45BC3 /* DetailViewController.swift */; };
+		100222B420BDE92D00F45BC3 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100222AD20BDE92C00F45BC3 /* ProductCell.swift */; };
+		100222B520BDE92D00F45BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100222AE20BDE92C00F45BC3 /* AppDelegate.swift */; };
+		100222B620BDE92D00F45BC3 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100222AF20BDE92C00F45BC3 /* IAPHelper.swift */; };
+		100222B720BDE92D00F45BC3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100222B020BDE92C00F45BC3 /* MasterViewController.swift */; };
+		100222B820BDE92D00F45BC3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 100222B120BDE92D00F45BC3 /* Info.plist */; };
+		100222BD20BDE94100F45BC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 100222B920BDE94100F45BC3 /* LaunchScreen.xib */; };
+		100222BE20BDE94100F45BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100222BB20BDE94100F45BC3 /* Main.storyboard */; };
+		1081A05320BDF84C0097B9C9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1081A05220BDF84C0097B9C9 /* StoreKit.framework */; };
+		1081A05520BE11740097B9C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1081A05420BE11740097B9C9 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100222AA20BDE92B00F45BC3 /* Rage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rage-Bridging-Header.h"; sourceTree = "<group>"; };
+		100222AB20BDE92C00F45BC3 /* RageProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RageProducts.swift; path = Rage/RageProducts.swift; sourceTree = SOURCE_ROOT; };
+		100222AC20BDE92C00F45BC3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Rage/DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		100222AD20BDE92C00F45BC3 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCell.swift; path = Rage/ProductCell.swift; sourceTree = SOURCE_ROOT; };
+		100222AE20BDE92C00F45BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Rage/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		100222AF20BDE92C00F45BC3 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IAPHelper.swift; path = Rage/IAPHelper.swift; sourceTree = SOURCE_ROOT; };
+		100222B020BDE92C00F45BC3 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = Rage/MasterViewController.swift; sourceTree = SOURCE_ROOT; };
+		100222B120BDE92D00F45BC3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Rage/Info.plist; sourceTree = SOURCE_ROOT; };
+		100222BA20BDE94100F45BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Rage/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		100222BC20BDE94100F45BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Rage/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		1081A05220BDF84C0097B9C9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1081A05420BE11740097B9C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Rage/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		5DAF8FFB1AF403640068C264 /* Rage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAF8FF81AF403640068C264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1081A05320BDF84C0097B9C9 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100222A920BDE90E00F45BC3 /* Rage */ = {
+			isa = PBXGroup;
+			children = (
+				100222B920BDE94100F45BC3 /* LaunchScreen.xib */,
+				100222BB20BDE94100F45BC3 /* Main.storyboard */,
+				100222AE20BDE92C00F45BC3 /* AppDelegate.swift */,
+				100222AC20BDE92C00F45BC3 /* DetailViewController.swift */,
+				100222AF20BDE92C00F45BC3 /* IAPHelper.swift */,
+				100222B120BDE92D00F45BC3 /* Info.plist */,
+				100222B020BDE92C00F45BC3 /* MasterViewController.swift */,
+				100222AD20BDE92C00F45BC3 /* ProductCell.swift */,
+				100222AB20BDE92C00F45BC3 /* RageProducts.swift */,
+				100222AA20BDE92B00F45BC3 /* Rage-Bridging-Header.h */,
+				1081A05420BE11740097B9C9 /* Images.xcassets */,
+			);
+			name = Rage;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1081A05120BDF84C0097B9C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1081A05220BDF84C0097B9C9 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DAF8FF21AF403640068C264 = {
+			isa = PBXGroup;
+			children = (
+				100222A920BDE90E00F45BC3 /* Rage */,
+				5DAF8FFC1AF403640068C264 /* Products */,
+				1081A05120BDF84C0097B9C9 /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		5DAF8FFC1AF403640068C264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF8FFB1AF403640068C264 /* Rage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DAF8FFA1AF403640068C264 /* Rage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF901C1AF403640068C264 /* Build configuration list for PBXNativeTarget "Rage" */;
+			buildPhases = (
+				5DAF8FF71AF403640068C264 /* Sources */,
+				5DAF8FF81AF403640068C264 /* Frameworks */,
+				5DAF8FF91AF403640068C264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rage;
+			productName = inappragedemo;
+			productReference = 5DAF8FFB1AF403640068C264 /* Rage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAF8FF31AF403640068C264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					5DAF8FFA1AF403640068C264 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = DU5Z24RG7N;
+						LastSwiftMigration = 0930;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5DAF8FF61AF403640068C264 /* Build configuration list for PBXProject "Rage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DAF8FF21AF403640068C264;
+			productRefGroup = 5DAF8FFC1AF403640068C264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAF8FFA1AF403640068C264 /* Rage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAF8FF91AF403640068C264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100222BE20BDE94100F45BC3 /* Main.storyboard in Resources */,
+				1081A05520BE11740097B9C9 /* Images.xcassets in Resources */,
+				100222BD20BDE94100F45BC3 /* LaunchScreen.xib in Resources */,
+				100222B820BDE92D00F45BC3 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAF8FF71AF403640068C264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100222B520BDE92D00F45BC3 /* AppDelegate.swift in Sources */,
+				100222B420BDE92D00F45BC3 /* ProductCell.swift in Sources */,
+				100222B720BDE92D00F45BC3 /* MasterViewController.swift in Sources */,
+				100222B220BDE92D00F45BC3 /* RageProducts.swift in Sources */,
+				100222B620BDE92D00F45BC3 /* IAPHelper.swift in Sources */,
+				100222B320BDE92D00F45BC3 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		100222B920BDE94100F45BC3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				100222BA20BDE94100F45BC3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		100222BB20BDE94100F45BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				100222BC20BDE94100F45BC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DAF901A1AF403640068C264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DAF901B1AF403640068C264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DAF901D1AF403640068C264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DU5Z24RG7N;
+				INFOPLIST_FILE = "$(SRCROOT)/Rage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Infosys.RageIAPTutorial;
+				PRODUCT_NAME = Rage;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "New Group/Rage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5DAF901E1AF403640068C264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DU5Z24RG7N;
+				INFOPLIST_FILE = "$(SRCROOT)/Rage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Infosys.RageIAPTutorial;
+				PRODUCT_NAME = Rage;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "New Group/Rage-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAF8FF61AF403640068C264 /* Build configuration list for PBXProject "Rage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF901A1AF403640068C264 /* Debug */,
+				5DAF901B1AF403640068C264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF901C1AF403640068C264 /* Build configuration list for PBXNativeTarget "Rage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF901D1AF403640068C264 /* Debug */,
+				5DAF901E1AF403640068C264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DAF8FF31AF403640068C264 /* Project object */;
+}
